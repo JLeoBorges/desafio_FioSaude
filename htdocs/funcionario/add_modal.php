@@ -47,7 +47,7 @@
                                     $erow = mysqli_fetch_array($valor); ?>
                                     <?php foreach ($valor as $salario): ?>
 
-                                        <option value="<?= $salario['id'] ?>"><?= $salario['salario']; ?></option>
+                                        <option value="<?= $salario['id'] ?>"><?="R$ ".number_format($salario['salario'], 2, ',', '.'); ?></option>
                                     <?php endforeach; ?>
                                 </select>
 

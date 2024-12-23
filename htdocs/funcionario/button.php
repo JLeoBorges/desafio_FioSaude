@@ -86,9 +86,9 @@
                                     //$erow = mysqli_fetch_array($valor); ?>
                                     <?php foreach ($valor as $salario):
                                         if ($salario['id'] == $erow['salario_id']) { ?>
-                                            <option value="<?= $salario['id'] ?>" selected><?= $salario['salario']; ?></option>
+                                            <option value="<?= $salario['id'] ?>" selected><?= "R$ ".number_format($salario['salario'], 2, ',', '.'); ?></option>
                                         <?php } else { ?>
-                                            <option value="<?= $salario['id'] ?>"><?= $salario['salario']; ?></option>
+                                            <option value="<?= $salario['id'] ?>"><?= "R$ ".number_format($salario['salario'], 2, ',', '.'); ?></option>
                                         <?php }endforeach; ?>
 
                                 </select>

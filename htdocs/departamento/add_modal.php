@@ -10,7 +10,7 @@
 				<div class="container-fluid">
 				<form method="POST" action="addnew.php">
 					<div class="row">
-						<div class="col-lg-2">
+						<div class="col-lg-4">
 							<label class="control-label" style="position:relative; top:7px;">Nome Departamento:</label>
 						</div>
 						<div class="col-lg-10">

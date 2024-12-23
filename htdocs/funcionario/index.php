@@ -38,7 +38,7 @@
 					<tr>
 						<td><?php echo ucwords($row['nome']); ?></td>
 						<td><?php echo ucwords($row['cpf']); ?></td>
-						<td><?php echo ucwords($row['salario']); ?></td>
+						<td><?php echo ucwords("R$ ".number_format($row['salario'], 2, ',', '.')); ?></td>
 						<td><?php echo ucwords($row['projeto']); ?></td>
 						<td><?php echo ucwords($row['departamento']); ?></td>
 

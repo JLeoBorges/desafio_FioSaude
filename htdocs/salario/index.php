@@ -33,7 +33,7 @@
 				while($row=mysqli_fetch_array($query)){
 					?>
 					<tr>
-						<td><?php echo ucwords($row['salario']); ?></td>
+						<td><?php echo ucwords("R$ ".number_format($row['salario'], 2, ',', '.')); ?></td>
 					
 						<td>
 							<a href="#edit<?php echo $row['id']; ?>" data-toggle="modal" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Editar</a> || 
