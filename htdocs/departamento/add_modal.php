@@ -11,7 +11,7 @@
 				<form method="POST" action="addnew.php">
 					<div class="row">
 						<div class="col-lg-4">
-							<label class="control-label" style="position:relative; top:7px;">Nome Departamento:</label>
+							<label class="control-label" style="position:relative; top:7px;">Nome Departamentooo:</label>
 						</div>
 						<div class="col-lg-10">
 							<input type="text" class="form-control" name="nome">
